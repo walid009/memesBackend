@@ -1,4 +1,4 @@
-const express = require('express')
+const express = require('Express')
 const router = express.Router()
 
 const passwordController = require('../controllers/passwordController.js')

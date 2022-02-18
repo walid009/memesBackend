@@ -1,10 +1,11 @@
-const express = require("express");
 
-const app = express();
+const mongoose = require('mongoose');
+const express = require('express');
+const bodyParser = require('body-parser');
 
-const logger = require("morgan");
+const app = express()
 
-app.use(express.json())
+app.use(bodyParser.json({ type: 'application/json' }))
 
 const swaggerJsDoc = require('swagger-jsdoc');
 const swaggerUi = require('swagger-ui-express');

@@ -1,10 +1,12 @@
-const express = require("Express");
+const mongoose = require('mongoose');
+const express = require('express');
+const bodyParser = require('body-parser');
 
-const app = express();
+const app = express()
 
-//const logger = require("morgan");
-
-app.use(express.json())
+//app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.json({ type: 'application/json' }))
+//app.use(express.json)
 
 const swaggerJsDoc = require('swagger-jsdoc');
 const swaggerUi = require('swagger-ui-express');

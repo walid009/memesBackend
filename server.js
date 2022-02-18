@@ -1,3 +1,4 @@
+const mongoose = require("mongoose");
 const express = require('express');
 const bodyParser = require('body-parser');
 
@@ -26,7 +27,6 @@ const swaggerOptions = {
 
 const swaggerDocs = swaggerJsDoc(swaggerOptions);
 
-const mongoose = require("mongoose");
 const PORT = process.env.PORT || 3000;
 const uri =
 "mongodb+srv://amine:1234@cluster0.9jpmk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"

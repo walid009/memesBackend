@@ -1,4 +1,4 @@
-const Points =require ('../models/points')
+const Points =require ('../models/Points.js')
 
 
 

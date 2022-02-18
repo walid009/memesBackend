@@ -1,4 +1,4 @@
-const Meme =require ('../models/meme')
+const Meme =require ('../models/Meme.js')
 
 module.exports = {
     createMeme: async (req, res) => {

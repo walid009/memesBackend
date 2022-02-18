@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 
-const pointsController = require('../controllers/pointsController')
+const pointsController = require('../controllers/pointsController.js')
 
 
 

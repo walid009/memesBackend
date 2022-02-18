@@ -1,4 +1,4 @@
-const Password =require ('../models/password')
+const Password =require ('../models/Password.js')
 
 
 

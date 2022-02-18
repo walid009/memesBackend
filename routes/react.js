@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 
-const reactController = require('../controllers/reactController')
+const reactController = require('../controllers/reactController.js')
 
 
 

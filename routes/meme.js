@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 
-const memeController = require('../controllers/memeController')
+const memeController = require('../controllers/memeController.js')
 
 const multer = require("multer")
 
